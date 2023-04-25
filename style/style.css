@@ -12737,14 +12737,23 @@ body {
   width: 100%;
 }
 
-#site-background {
-  background-color: #343a40;
+#site-background-intro {
+  background-color: transparent;
   width: 100%;
   color: white;
 }
-#site-background #intro {
+#site-background-intro #intro {
   background-color: #212529;
   height: 100vh;
   padding: 200px;
   text-align: center;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  background-color: black;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
