@@ -3,23 +3,41 @@
     <head>
         <title>Tomoji Duggan's Autobiography</title>
         <link rel="stylesheet" href="style/style.css"/>
+        <script src="https://kit.fontawesome.com/06f879abe6.js" crossorigin="anonymous"></script>
 
+        <script src="main.js"></script>
    
     </head>
     <body>
-        <!-- <nav class="navbar bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-                </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container" id="nav-content">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav" id="navbarNav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#intro">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Français</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav> -->
+        </nav>
 
 
         <div id="site-background-intro">
             <div id="intro" class="container">
-                <h1>Welcome to my autobiography!</h1>
-                <p>My name is Tomoji, and I wish to be a programmer. 
+                <h1>Tomoji Duggan</h1>
+                <p>A young aspiring scientist and programmer. 
                     I have varied experience with front-end development with languages including HTML, CSS, Javascript. 
                     I also have experience using extensions such as React, Bootstrap, SCSS, and a few more minor frameworks.
                     I have developed basic skills in Adobe Illustrate and Adobe Photoshop, which occasionaly comes in handy within Web Development.
@@ -30,9 +48,99 @@
                     On my free time, I do karate, I play violin and I code.</p>
 
 
-                
+               <a href="#dev-page" id="arrow-down"><img src="white-down-arrow-png-2.webp" width="100px" /></a>
             </div>
         </div>
+        <div id="dev-page" class="page">
+            
+            <div id="dev-info" class="container">
+                <h1>Job Experience</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card md-6 box-shadow bg-dark">
+                            <div class="card-body">
+                                <div class="row"><h3 class="card-title col-md-6">Animator</h3> <div class="card-date col-md-6"><em>JULY 2022 - NOW</em></div><br/></div>
+                                <strong>Pointe-aux-Jeunes (Gatineau)</strong><br/>
+                                <span>
+                                    La Pointe-aux-Jeunes is a government-subsidized organization with the goal of providing a place of belonging that allows young people to be artisans of their projects and realize their full potential. During the summer, we offered bike initiations for young people with the help of a bike trailer, we did animation in the parks and much more! This developed my communication and my self-confidence due to a variety of proposals and presentations that I made in front of several colleagues or young people. I also helped some of my colleagues with technical issues regarding computer programs and file organization.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col-md-6">
+                        <div class="card md-6 box-shadow bg-dark">
+                            <div class="card-body">
+                                <div class="row"><h3 class="card-title col-md-6">Working at Tim-Hortons</h3> <div class="card-date col-md-6"><em>FEBUARY 2020 - AUGUST 2021</em></div><br/></div>
+                                <strong>Lucerne Tim-Hortons (Gatineau)</strong><br/>
+                                <span>
+                                    Tim Hortons is a fast food chain that mainly sells coffee, pastries, and sandwiches. During my shifts at this place, I have learnt how to prepare beverages, memorizing orders and bring the proper pastries in a high-stress environment. Also, I have taken many orders in both English and French and I have handled cash registers before. After about a year of working there, I have learnt how to bake various pastries and was offered a supervisor position.                                
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Next Section -->
+                <h1>Projects</h1>
+                <div class="col-md-6">
+                    <div class="card md-6 box-shadow bg-dark">
+                        <div class="card-body">
+                            <div class="row"><h3 class="card-title col-md-6">Aquaponics Site</h3> <div class="card-date col-md-6"><em>NOVEMBER 2020 - FEBUARY 2021</em></div><br/></div>
+                            <span>
+                                This is my personal project that I did as required by my International program at Grande-Rivière. 
+                                It consisted of a real part, which was to make an improvised aquaponics system, and a website which presents my research and experience.
+                                For this project, I used React, which made me learn a new framework although not practical for small-scale sites.
+                                During the making of this website, I have learnt alot about neat things that can be implemented within websites to make it more interesting.
+                                I also learnt how to use Adobe Illustrate, which was used to make the diagram in the Explanation part.<br/><br/>
+                            </span>
+                            <a class="btn btn-light" href="https://aquaponics-n10tdpymy.vercel.app/">Access</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Next Section -->
+               
+
+            </div>
+        </div>
+
+        <div id="concl" class="page">
+            <div class="container">
+                <h1>Education</h1>
+                <div class="card-group">
+                    <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+
+                <h1>Contact me</h1>
+            </div>
+
+
+            </div>
+        </div>
+
+
 
 
 
@@ -44,8 +152,11 @@
                 <p>Upcoming: Mcgill University Honours Physics & Computer Science Joint Major (Fall 2023)</p>
                 <p>Cegep Heritage College - Sciences (Current)</p>
                 <p>École Secondaire Grande Rivière - PEI Program (2016-2021)</p> -->
-        <canvas class="background"></canvas>
-        <!-- PARTICLES.JS -->
-        <script src="/node_modules/particlesjs/dist/particles.min.js"></script>
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <!-- scripts -->
+        <script src="/node_modules/particles.js/particles.js"></script>
+        <script src="/node_modules/particles.js/demo/js/app.js"></script>
     </body>
 </html>
