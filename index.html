@@ -9,6 +9,7 @@
    
     </head>
     <body>
+        <div class="background"></div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container" id="nav-content">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +24,7 @@
                     <a class="nav-link active" href="#intro">Experience</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Contact Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Français</a>
+                    <a class="nav-link active" href="french.html">Français</a>
                   </li>
                 </ul>
               </div>
@@ -37,21 +35,36 @@
         <div id="site-background-intro">
             <div id="intro" class="container">
                 <h1>Tomoji Duggan</h1>
-                <p>A young aspiring scientist and programmer. 
-                    I have varied experience with front-end development with languages including HTML, CSS, Javascript. 
-                    I also have experience using extensions such as React, Bootstrap, SCSS, and a few more minor frameworks.
-                    I have developed basic skills in Adobe Illustrate and Adobe Photoshop, which occasionaly comes in handy within Web Development.
-                    More recently, I have developed a fondness for Python and Artificial Intelligence and have experimented with applications of stable-diffusion models.
-                    I am currently finishing up my Cegep degree at Cegep Heritage College and have been accepted at Mcgill in physics.
-                    I am planning on taking an honours physics and computer science joint major.
+                <div class="row" id="desc">
+                    <span>Junior Programmer | Science Enthousiast | Violin Player | Karateka</span>
+                </div>
+                <div class="row" id="icons">
+                    <a href="mailto:tomojiduggan@gmail.com" class="col-md-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/tomojiduggan" class="col-md-6" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    </a>
+                </div>
+                <p>
+                    Hi! My name is Tomoji Duggan, and I'm a Canadian student currently finishing my DEC at <a class="link" href="https://www.cegep-heritage.qc.ca/"><em>Cégep Heritage College</em></a>.
+                    I have been accepted at Mcgill in the physics department, in which I am planning to take a honours physics and computer science joint major.
+                    I have a wide set of interests within the sciences, computers and music.
+                    A few months ago, I have been intrigued with the applications of python scripts, which brought me back into coding.
+                    More recently, I have experimented with using image generation AI locally and running it using Python.
+                    Which brings us to now, where I'm reexploring the possibilities of front-end development by making websites like this.
 
                     On my free time, I do karate, I play violin and I code.</p>
 
 
-               <a href="#dev-page" id="arrow-down"><img src="white-down-arrow-png-2.webp" width="100px" /></a>
+               <a href="#dev-page" id="arrow-down"><img src="/img/white-down-arrow-png-2.webp" width="100px" /></a>
             </div>
         </div>
-        <div id="dev-page" class="page">
+        <div id="dev-page">
             
             <div id="dev-info" class="container">
                 <h1>Job Experience</h1>
@@ -59,7 +72,7 @@
                     <div class="col-md-6">
                         <div class="card md-6 box-shadow bg-dark">
                             <div class="card-body">
-                                <div class="row"><h3 class="card-title col-md-6">Animator</h3> <div class="card-date col-md-6"><em>JULY 2022 - NOW</em></div><br/></div>
+                                <div class="row"><h3 class="card-title col-md-6">Animateur</h3> <div class="card-date col-md-6"><em>JUILLET 2022 - MAINTENANT</em></div><br/></div>
                                 <strong>Pointe-aux-Jeunes (Gatineau)</strong><br/>
                                 <span>
                                     La Pointe-aux-Jeunes is a government-subsidized organization with the goal of providing a place of belonging that allows young people to be artisans of their projects and realize their full potential. During the summer, we offered bike initiations for young people with the help of a bike trailer, we did animation in the parks and much more! This developed my communication and my self-confidence due to a variety of proposals and presentations that I made in front of several colleagues or young people. I also helped some of my colleagues with technical issues regarding computer programs and file organization.
@@ -106,34 +119,77 @@
         </div>
 
         <div id="concl" class="page">
-            <div class="container">
-                <h1>Education</h1>
-                <div class="card-group">
-                    <div class="card bg-dark">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                    </div>
-                    <div class="card bg-dark">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                    </div>
-                    <div class="card bg-dark">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
+            <h2>Coding</h2>
+            <div class="imgList">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-2"><img src="/img/logo_html.webp"/></div>
+                        <div class="col-md-2"><img class="col-md-3" src="/img/css-3-logo-png-transparent.webp"/></div>
+                        <div class="col-md-2"><img src="/img/js-logo.webp"/></div>
+                        <div class="col-md-2"><img src="/img/react-logo.webp"/></div>
+                        <div class="col-md-2"><img src="/img/scss.webp"/></div>
+                        <div class="col-md-2"><img src="/img/python.webp"/></div>
+
                     </div>
                 </div>
 
-                <h1>Contact me</h1>
+            </div>
+            <h2>Skills</h2>
+            <div class="imgList">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2"><img src="/img/illustrate.webp"/></div>
+            
+                        <div class="col-md-2"><img src="/img/photoshop.webp"/></div>
+                        <div class="col-md-2"><img src="/img/git.png"/></div>
+                        <div class="col-md-2"><img src="/img/ubuntu.png"/></div>
+                        <div class="col-md-2"><img src="/img/vs.webp"/></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container">
+                
+
+                <!-- Next Section -->
+                <h1>Education</h1>
+                <div class="list-group">
+                    <div href="#" class="list-group-item" aria-current="true">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">École Secondaire Grande-Rivière</h5>
+                        <small>2016-2021</small>
+                      </div>
+                      <p class="mb-1">International Program, Natural Sciences</p><br/>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down-circle-fill down-arrow" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                      </svg>
+                    </div>
+                    <div href="#" class="list-group-item">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cégep Heritage College</h5>
+                        <small>2021-Now</small>
+                      </div>
+                      <p class="mb-1">Natural Sciences</p><br/>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-down-circle-fill down-arrow" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                      </svg>
+                    </div>
+                    <div href="#" class="list-group-item">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Upcoming: Mcgill</h5>
+                        <small class="text-body-secondary">Starting Fall 2023</small>
+                      </div>
+                      <p class="mb-1">Planned: Honours Physics and Computer Science Joint Major</p><br/>
+                    </div>
+                  </div>
+
+                
             </div>
 
 
@@ -157,6 +213,6 @@
 
         <!-- scripts -->
         <script src="/node_modules/particles.js/particles.js"></script>
-        <script src="/node_modules/particles.js/demo/js/app.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>

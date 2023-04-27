@@ -15,10 +15,32 @@
 
 
 //------------CUSTOM---------------//
-
+html{
+    margin: none;
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
 body{
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+}
+
+.background{
+    position: absolute;
+    background-color: black;
+    z-index: -5;
+    overflow: hidden;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.link{
+    color: white;
+    transition-duration: 0.5s;
+    :hover{
+        color: rgb(230, 230, 230);
+    }
 }
 
 .navbar{
@@ -64,6 +86,7 @@ body{
     #intro{
         background-color: rgba(39, 35, 46, 0.719);
         height: 100vh;
+        position: relative;
         align-items: center;
         text-align: center;
         flex-direction: column;
@@ -77,11 +100,33 @@ body{
         }
         #arrow-down{
             position: absolute;
-            bottom: 10px;
+            margin-bottom: 10px;
             transition-duration: 0.5s;
+            bottom: 0;
         }
         #arrow-down:hover{
             transform: translateY(8px)
+        }
+        #desc{
+            margin-bottom: 0.5rem;
+            width: 40%;
+            color: white;
+            font-size: 15px;
+        }
+        #icons{
+            margin-bottom: 1rem;
+            width: 10%;
+            height: 25px;
+            .bi{
+                color: rgb(207, 207, 207);
+                display: inline-block;
+                margin: none;
+                position: relative;
+                transition-duration: 0.5s;
+            }
+            .bi:hover{
+                color: white;
+            }
         }
     }
 }
@@ -89,7 +134,8 @@ body{
 #dev-page{
     background: linear-gradient(rgba(0,0,0,0), rgb(36, 36, 36));
     width: 100%;
-    height: 100vh;
+    margin-bottom: none;    
+    padding-bottom: 5rem;
     #dev-info{
         padding-top: 5%;
         color: white;
@@ -107,6 +153,43 @@ body{
 
     h1{
         margin-bottom: 2rem;
+    }
+    #skilltitle{
+        margin-bottom: 1rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+    }
+    .imgList{
+        height: 150px;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: rgb(255, 255, 255);
+        padding-top: 25px;
+    }
+    .imgContain{
+        align-items: center !important;
+    }
+
+    .col-md-2{
+        height: 100%;
+        text-align: center;      
+        img{
+            height: 100px;
+            width: auto;
+        }  
+    }
+
+    .mb-1{
+        padding-bottom: 16px;
+    }
+    .down-arrow{
+        position: absolute;
+        bottom: -16px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background-color: white;
     }
 }
 
