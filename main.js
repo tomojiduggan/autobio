@@ -7,14 +7,14 @@
 
 
 
-window.particlesJS.load('particles-js', 'particles.json', function() {
+particlesJS.load('particles-js', 'particles.json', function() {
     console.log('particles.js loaded - callback');
   });
   
   
   /* Otherwise just put the config content (json): */
   
-  window.particlesJS('particles-js',
+  particlesJS('particles-js',
     
     {
       "particles": {
